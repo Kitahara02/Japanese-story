@@ -1,0 +1,274 @@
+header
+{
+    color: #00ccff;
+    background-color: #010b18;
+    border-bottom: 0.1em groove #22484e;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+    font-family: 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+    height:2em;
+    transition: all ease-in-out;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
+header:hover
+{
+    background-color: #000111;
+    color: aqua;
+}
+header.light
+{
+    color:#000121;
+    background-color: #d1ffe5;
+    transition: ease-in-out;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
+header.light:hover
+{
+    background-color: #c5ffe3;
+    color: #003623;
+}
+.markus
+{
+    color:#00ffff;
+    font-size: 18px;
+    background-color: #000111;
+    text-align: left;
+    font-family: 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+    margin: 1em;
+    width:auto;
+    transition: all 350ms ease-in-out;
+    transition-delay: 100ms;
+}
+.markus.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+body
+{
+    color:aqua;
+    background-color: #000111;
+    overflow-x: hidden;
+    margin: 0;
+    transition: all 350ms ease-in-out;
+    transition-delay: 100ms;
+}
+body.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+footer
+{
+    color: #009696;
+    background-color: #010b18;
+    position: relative;
+    width: auto;
+    bottom: 0;
+    text-align: center;
+    height:3em;
+    border-top: 0.2em ridge #22484e;
+    font-size: 25px;
+    padding-top: 0.8em;
+    transition: all ease-in-out;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
+footer:hover
+{
+    background-color: #000111;
+    color: #00ffff;
+}
+footer.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+footer.light:hover
+{
+    background-color: #c5ffe3;
+    color: rgb(0, 54, 35);
+}
+.button
+{
+    color: #009696;
+    width: 10%;
+    cursor: pointer;
+    border: solid #00e1ff;
+    border-radius: 1.55em;
+    height: 3.12em;
+    font-size: 16px;
+    margin: auto;
+    transition: all 350ms ease-in-out 100ms;
+    background-color: #000111;
+    box-sizing: border-box;
+}
+.yesbutton:hover
+{
+    background-color: #00ffa2;
+    color: #00010f;
+}
+.yesbutton.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+.yesbutton.light:hover
+{
+    background-color: #adffb3;
+    color: #000073;
+}
+.nobutton:hover
+{
+    background-color: #0077ff;
+    color: #ff99cd;
+}
+.nobutton.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+.nobutton.light:hover
+{
+    background-color: #fab199;
+    color: #000073;
+}
+strong
+{
+    padding-left: 25px;
+    font-size: 18px;
+    color: #64c9c9;
+    transition: all ease-in-out;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
+strong:hover
+{
+    color: #00ffff;
+}
+strong.light
+{
+    color:#000111;
+    background-color: #d1ffe5;
+}
+strong.light:hover
+{
+    color: #004c21;
+}
+.output
+{
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 25px;
+}
+.toggle
+{
+    font-size: 5px;
+    height: 6em;
+    width: 12em;
+    border-radius: 3em;
+    padding-top: 3em;
+    margin-right: 5em;
+    position: relative;
+    background-color: #d1dfe5;
+    transition: all 350ms ease-in-out;
+    transition-delay: 100ms;
+    cursor: pointer;
+    border: 2em rgb(0, 0, 0);
+}
+.toggle::before
+{
+    font-size: 5px;
+    content: '';
+    position: absolute;
+    height: 6em;
+    width: 6em;
+    background: #00ccff;
+    border-radius: 100%;
+    top: 45%;
+    left: 0;
+    transform: translateY(-44%);
+    transition: all 350ms ease-in-out;
+    transition-delay: 100ms;
+    color: #00ffff;
+}
+.toggle.active::before
+{
+    left: calc(50%);
+    background-color: #d1ffe5;
+}
+.toggle.light
+{
+    background-color: #000000;
+}
+@media only screen and (max-width: 768px){
+    .markus
+    {
+        font-size: 14px;
+    }
+    header
+    {
+        font-size: 35px;
+    }
+    strong
+    {
+        font-size: 15px;
+    }
+    footer
+    {
+        font-size: 17px;
+    }
+    .button
+    {
+        font-size: 12px;
+        border-radius: 0.775em;
+        height: 4em;
+        width: 20%;
+    }
+    .toggle
+    {
+    height: 5.5em;
+    width: 10em;
+    border-radius: 3em;
+    padding-top: 1.5em;
+    margin-right: 2em;
+    margin-top: 2em;
+    border: 2em rgb(0, 0, 0);
+    }
+    .toggle::before
+    {
+    height: 4.9em;
+    width: 4.9em;
+    }
+    .output
+    {
+        font-size: 15px;
+    }
+}
+.container
+{
+    display: flex;
+    justify-content: right;
+}
+.contains
+{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+.milk
+{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    
+}
+.stronk
+{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
