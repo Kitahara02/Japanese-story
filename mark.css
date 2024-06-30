@@ -1,12 +1,16 @@
+:root {
+    --l: #00ccff;
+    --d: #000111;
+}
 header
 {
-    color: #00ccff;
+    color: var(--l);
     background-color: #010b18;
     border-bottom: 0.1em groove #22484e;
     text-align: center;
     text-decoration: solid;
     font-size: 50px;
-    font-family: 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     height:2em;
     transition: all ease-in-out;
     transition-duration: 350ms;
@@ -14,8 +18,8 @@ header
 }
 header:hover
 {
-    background-color: #000111;
-    color: aqua;
+    background-color: var(--d);
+    color: #00ffff;
 }
 header.light
 {
@@ -34,9 +38,9 @@ header.light:hover
 {
     color:#00ffff;
     font-size: 18px;
-    background-color: #000111;
+    background-color: var(--d);
     text-align: left;
-    font-family: 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     margin: 1em;
     width:auto;
     transition: all 350ms ease-in-out;
@@ -44,13 +48,12 @@ header.light:hover
 }
 .markus.light
 {
-    color:#000111;
+    color: var(--d);
     background-color: #d1ffe5;
 }
 body
 {
-    color:aqua;
-    background-color: #000111;
+    background-color: var(--d);
     overflow-x: hidden;
     margin: 0;
     transition: all 350ms ease-in-out;
@@ -58,39 +61,40 @@ body
 }
 body.light
 {
-    color:#000111;
+    color:var(--d);
     background-color: #d1ffe5;
 }
 footer
 {
-    color: #009696;
+    color: var(--l);
     background-color: #010b18;
     position: relative;
     width: auto;
     bottom: 0;
     text-align: center;
     height:3em;
-    border-top: 0.2em ridge #22484e;
+    border-top: 0.1em groove #22484e;
     font-size: 25px;
-    padding-top: 0.8em;
+    padding-top: 1em;
     transition: all ease-in-out;
     transition-duration: 350ms;
     transition-delay: 100ms;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 footer:hover
 {
-    background-color: #000111;
+    background-color: var(--d);
     color: #00ffff;
 }
 footer.light
 {
-    color:#000111;
+    color:var(--d);
     background-color: #d1ffe5;
 }
 footer.light:hover
 {
     background-color: #c5ffe3;
-    color: rgb(0, 54, 35);
+    color: #003623;
 }
 .button
 {
@@ -103,8 +107,13 @@ footer.light:hover
     font-size: 16px;
     margin: auto;
     transition: all 350ms ease-in-out 100ms;
-    background-color: #000111;
+    background-color: var(--d);
     box-sizing: border-box;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.button.light
+{
+    border: solid #000111;
 }
 .yesbutton:hover
 {
@@ -113,7 +122,7 @@ footer.light:hover
 }
 .yesbutton.light
 {
-    color:#000111;
+    color:var(--d);
     background-color: #d1ffe5;
 }
 .yesbutton.light:hover
@@ -128,7 +137,7 @@ footer.light:hover
 }
 .nobutton.light
 {
-    color:#000111;
+    color: var(--d);
     background-color: #d1ffe5;
 }
 .nobutton.light:hover
@@ -138,12 +147,12 @@ footer.light:hover
 }
 strong
 {
-    padding-left: 25px;
     font-size: 18px;
     color: #64c9c9;
     transition: all ease-in-out;
     transition-duration: 350ms;
     transition-delay: 100ms;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 strong:hover
 {
@@ -151,7 +160,7 @@ strong:hover
 }
 strong.light
 {
-    color:#000111;
+    color: var(--d);
     background-color: #d1ffe5;
 }
 strong.light:hover
@@ -160,9 +169,28 @@ strong.light:hover
 }
 .output
 {
-    margin-top: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-size: 18px;
-    padding-left: 25px;
+    height: 2em;
+    color: #64c9c9;
+    transition: all ease-in-out;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.output:hover
+{
+    color: #00ffff;
+}
+.output.light
+{
+    color: #000111;
+    border: #000d0f;
+}
+.output.light:hover
+{
+    color: #004c21;
 }
 .toggle
 {
@@ -173,11 +201,11 @@ strong.light:hover
     padding-top: 3em;
     margin-right: 5em;
     position: relative;
-    background-color: #d1dfe5;
+    background-color: #ffffff;
     transition: all 350ms ease-in-out;
     transition-delay: 100ms;
     cursor: pointer;
-    border: 2em rgb(0, 0, 0);
+    border: 2em #000000;
 }
 .toggle::before
 {
@@ -198,12 +226,34 @@ strong.light:hover
 .toggle.active::before
 {
     left: calc(50%);
-    background-color: #d1ffe5;
+    background-color: #ffffff;
 }
 .toggle.light
 {
     background-color: #000000;
 }
+.dk
+{
+    margin-left: -6em;
+    z-index: 1;
+    position: absolute;
+    margin-top: -2.7em;
+    transition: opacity 350ms ease-in-out;
+    transition-delay: 100ms;
+}
+.lt
+{
+    margin-right: -6em;
+    z-index: 1;
+    position: relative;
+    margin-top: -2.7em;
+    transition: opacity 350ms ease-in-out;
+    transition-delay: 100ms;
+}
+iframe
+    {
+        margin: 1.5em;
+    }
 @media only screen and (max-width: 768px){
     .markus
     {
@@ -213,9 +263,20 @@ strong.light:hover
     {
         font-size: 35px;
     }
+    body
+    {
+        width: auto;
+    }
+    iframe
+    {
+        width: 83%;
+        height: 100%;
+        margin: 1.5em;
+    }
     strong
     {
         font-size: 15px;
+        margin-right: 2em;
     }
     footer
     {
@@ -230,28 +291,47 @@ strong.light:hover
     }
     .toggle
     {
-    height: 5.5em;
-    width: 10em;
-    border-radius: 3em;
-    padding-top: 1.5em;
-    margin-right: 2em;
-    margin-top: 2em;
-    border: 2em rgb(0, 0, 0);
+        height: 5em;
+        width: 10em;
+        border-radius: 3em;
+        padding-top: 1.5em;
+        margin-right: 2em;
+        margin-top: 2em;
+        border: 2em #000000;
     }
     .toggle::before
     {
-    height: 4.9em;
-    width: 4.9em;
+        height: 5em;
+        width: 5em;
     }
     .output
     {
         font-size: 15px;
     }
+    .dk
+    {
+        margin-left: -5em;
+        z-index: 1;
+        position: absolute;
+        margin-top: -1.3em;
+        transition: opacity 350ms ease-in-out;
+        transition-delay: 100ms;
+    }
+    .lt
+    {
+        margin-right: -5em;
+        z-index: 1;
+        position: relative;
+        margin-top: -1.3em;
+        transition: opacity 350ms ease-in-out;
+        transition-delay: 100ms;
+    } 
 }
 .container
 {
     display: flex;
     justify-content: right;
+    margin-top: 1em;
 }
 .contains
 {
