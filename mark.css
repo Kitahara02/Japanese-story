@@ -64,6 +64,10 @@ body.light
     color:var(--d);
     background-color: #d1ffe5;
 }
+audio
+{
+    margin: 1.5em;
+}
 footer
 {
     color: var(--l);
