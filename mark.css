@@ -9,7 +9,7 @@ header
     border-bottom: 0.1em groove #22484e;
     text-align: center;
     text-decoration: solid;
-    font-size: 50px;
+    font-size: 45px;
     font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     height:2em;
     transition: all ease-in-out;
@@ -37,7 +37,7 @@ header.light:hover
 .markus
 {
     color:#00ffff;
-    font-size: 18px;
+    font-size: 15px;
     background-color: var(--d);
     text-align: left;
     font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
@@ -108,7 +108,7 @@ footer.light:hover
     border: solid #00e1ff;
     border-radius: 1.55em;
     height: 3.12em;
-    font-size: 16px;
+    font-size: 15px;
     margin: auto;
     transition: all 350ms ease-in-out 100ms;
     background-color: var(--d);
@@ -151,7 +151,7 @@ footer.light:hover
 }
 strong
 {
-    font-size: 20px;
+    font-size: 18px;
     color: #64c9c9;
     transition: all ease-in-out;
     transition-duration: 350ms;
@@ -175,7 +175,7 @@ strong.light:hover
 {
     margin-top: 1em;
     margin-bottom: 1em;
-    font-size: 20px;
+    font-size: 18px;
     height: 2em;
     color: #64c9c9;
     transition: all ease-in-out;
