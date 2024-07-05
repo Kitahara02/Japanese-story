@@ -10,7 +10,7 @@ header
     text-align: center;
     text-decoration: solid;
     font-size: 50px;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "游ゴシック";
     height:2em;
     transition: all ease-in-out;
     transition-duration: 350ms;
