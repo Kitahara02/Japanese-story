@@ -10,7 +10,7 @@ header
     text-align: center;
     text-decoration: solid;
     font-size: 50px;
-    font-family: "游ゴシック";
+    font-family: "Yuu";
     height:2em;
     transition: all ease-in-out;
     transition-duration: 350ms;
@@ -40,7 +40,7 @@ header.light:hover
     font-size: 18px;
     background-color: var(--d);
     text-align: left;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: YuGothic;
     margin: 1em;
     width:auto;
     transition: all 350ms ease-in-out;
