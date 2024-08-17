@@ -10,7 +10,7 @@ header
     text-align: center;
     text-decoration: solid;
     font-size: 50px;
-    font-family: "游ゴシック体";
+    font-family: "Klee One", cursive;
     height:2em;
     transition: all ease-in-out;
     transition-duration: 350ms;
@@ -40,7 +40,7 @@ header.light:hover
     font-size: 18px;
     background-color: var(--d);
     text-align: left;
-    font-family: YuGothic;
+    font-family: "Klee One", cursive;
     margin: 1em;
     width:auto;
     transition: all 350ms ease-in-out;
@@ -83,7 +83,7 @@ footer
     transition: all ease-in-out;
     transition-duration: 350ms;
     transition-delay: 100ms;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "Klee One", cursive;
 }
 footer:hover
 {
@@ -103,7 +103,7 @@ footer.light:hover
 .button
 {
     color: #009696;
-    width: 10%;
+    width: 15%;
     cursor: pointer;
     border: solid #00e1ff;
     border-radius: 1.55em;
@@ -113,7 +113,7 @@ footer.light:hover
     transition: all 350ms ease-in-out 100ms;
     background-color: var(--d);
     box-sizing: border-box;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "Klee One", cursive;
 }
 .button.light
 {
@@ -156,7 +156,7 @@ strong
     transition: all ease-in-out;
     transition-duration: 350ms;
     transition-delay: 100ms;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "Klee One", cursive;
 }
 strong:hover
 {
@@ -181,7 +181,7 @@ strong.light:hover
     transition: all ease-in-out;
     transition-duration: 350ms;
     transition-delay: 100ms;
-    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "Klee One", cursive;
 }
 .output:hover
 {
@@ -254,10 +254,10 @@ strong.light:hover
     transition: opacity 350ms ease-in-out;
     transition-delay: 100ms;
 }
-iframe
-    {
-        margin: 1.5em;
-    }
+.Yt{
+    display: block;
+    margin: 0 auto;
+}
 @media only screen and (max-width: 768px){
     .markus
     {
@@ -295,8 +295,8 @@ iframe
     {
         font-size: 12px;
         border-radius: 0.775em;
-        height: 3em;
-        width: 20%;
+        height: 3.5em;
+        width: 35%;
     }
     .toggle
     {
