@@ -70,6 +70,7 @@ audio
 }
 footer
 {
+    font-family: "Klee One", cursive, bold;
     color: var(--l);
     background-color: #010b18;
     position: relative;
