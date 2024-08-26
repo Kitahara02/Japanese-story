@@ -70,7 +70,6 @@ audio
 }
 footer
 {
-    font-family: "Klee One", bold;
     color: var(--l);
     background-color: #010b18;
     position: relative;
@@ -103,6 +102,7 @@ footer.light:hover
 }
 .button
 {
+    font-family: "Klee One", bold;
     color: #009696;
     width: 15%;
     cursor: pointer;
