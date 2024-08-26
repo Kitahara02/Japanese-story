@@ -70,7 +70,7 @@ audio
 }
 footer
 {
-    font-family: "Klee One", cursive, bold;
+    font-family: "Klee One", bold;
     color: var(--l);
     background-color: #010b18;
     position: relative;
@@ -89,7 +89,7 @@ footer
 footer:hover
 {
     background-color: var(--d);
-    color: #00ffff;
+    color: #000fff;
 }
 footer.light
 {
