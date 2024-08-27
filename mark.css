@@ -92,8 +92,8 @@ footer:hover
 }
 footer.light
 {
-    color:var(--d);
-    background-color: #d1ffe5;
+    color: #00ffff;
+    background-color: var(--d);
 }
 footer.light:hover
 {
